@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  /* this defines what 1rem is 10px in xl & xxl media */
+  /* font-size: 62.5%; 1rem = 10px -->  10/16 *100% = 62.5% */
+}
+
+body {
+  min-height: 100%;
+  color: #343a49;
+  font-family: Inter, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-head {
+  width: fit-content;
+}
+.countdown-input {
+  width: calc(60px * 6);
+  width: 300px;
+  text-align: center;
+  padding: 12px;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+.countdown-number {
+  width: 60px;
+  height: 60px;
+}
